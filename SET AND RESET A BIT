@@ -1,0 +1,26 @@
+// NAME : MANTAVYA ANAND
+//PRN : 24070123059
+//CLASS AND BATCH : EnTC - A3
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number, bitPosition;
+
+    cout << "Enter a number: ";
+    cin >> number;
+
+    cout << "Enter bit position to modify : ";
+    cin >> bitPosition;
+
+    int setResult = number | (1 << bitPosition);
+    cout << "After setting bit " << bitPosition << ": " << setResult << endl;
+
+    int resetResult = number & ~(1 << bitPosition);
+    cout << "After resetting bit " << bitPosition << ": " << resetResult << endl;
+
+    return 0;
+}
