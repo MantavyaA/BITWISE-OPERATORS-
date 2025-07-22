@@ -24,3 +24,10 @@ int main() {
 
     return 0;
 }
+
+
+//OUTPUT : 
+Enter a number: 10
+Enter bit position to modify : 1
+After setting bit 1: 10
+After resetting bit 1: 8
